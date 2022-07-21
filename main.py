@@ -128,7 +128,7 @@ def note(text):
 
     subprocess.Popen(['notepad.exe', file_name])
 
-
+# not working method
 def send_email(to, content):
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.ehlo()
